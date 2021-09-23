@@ -30,7 +30,7 @@ body{
     background-color: black;
 }
 .row1{
-    width:800px;
+    width:80%;
     background-image: url('img-2.jpg');
     text-align: left;
 }
@@ -60,12 +60,13 @@ a{
     align-content: center;
 }
 .icon{
-    border: 1px solid #727374;
+    border: 1px solid #d8d7d7;
     border-radius: 5px;
     text-align: center;
-    width: 30%;
-    padding: 20px;
-    margin: 40px 75px;
+    width: 50%;
+}
+.story-area-1{
+    padding: 10%;
 }
 .icon-1{
     border: 1px solid white;
@@ -84,6 +85,7 @@ a{
     letter-spacing: 1px;
     line-height: 1.5em;
     font-size: 14px;
+    padding-top: 5%;
 }
 .desc p{
     color: #777777;
@@ -235,3 +237,26 @@ justify-content: space-between;
      border-radius: 10px;
     font-size: 16px;
   } */
+  @media only screen and (max-width: 768px) {
+   .story-area-1{
+       padding-left:35%;
+   }
+   .story-area-1 h6{
+text-align: left;
+padding-bottom: 3%;
+   }
+   .story-area-2 .col-lg-3{
+             margin-top:0px;
+   }
+   .story-area-3 .icon-1{
+margin: 0 130px; 
+  }  
+ .story-area-3 .desc{
+       padding-right:10px;
+   }
+.box-3 .inpt-1{
+    margin-top: 0;
+    width: 30%;
+}
+
+  }
