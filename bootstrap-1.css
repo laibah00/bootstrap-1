@@ -59,14 +59,86 @@ a{
     align-items: center;
     align-content: center;
 }
+.story-area-1{
+    padding-top:50px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+}
+.amazing-work-area {
+    background: #f9f9ff;
+    padding: 100px 0;
+    padding-top: 150px;
+}
+.section-title {
+    padding-bottom: 30px;
+    font-size: 15px;
+}
+.section-title h3{
+    font-size: 24px;
+    padding-bottom: 5px;
+}
+.owl-carousel{
+    display: block;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-item {
+    position: relative;
+    min-height: 1px;
+    float: left;
+}
+.active-works-carousel .item {
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    width: 30%;
+    display: inline-block;
+}
+.ml-50{
+    margin-top: 50px;
+    margin-left: 180px;
+}
+.owl-dots{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.active-works-carousel .owl-dots .owl-dot.active {
+    background: #49e3ce;
+    box-shadow: 0px 10px 20px 0px rgb(0 0 0 / 20%);
+}
+.active-works-carousel .owl-dots .owl-dot {
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #eeeeee;
+    margin: 0 50px;
+}
+.item img{
+    width: 240%;
+}
 .icon{
     border: 1px solid #d8d7d7;
     border-radius: 5px;
     text-align: center;
-    width: 50%;
+    width: 30%;
+    margin-left: 30px;
 }
-.story-area-1{
-    padding: 10%;
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.single-feature{
+    margin-top:30px;
 }
 .icon-1{
     border: 1px solid white;
@@ -81,11 +153,16 @@ a{
     padding-left: 10px;
     padding-right: 15px;
 }
+.desc{
+    padding-top: 20px;
+    padding-right: 100px;
+}
 .desc h6{
     letter-spacing: 1px;
     line-height: 1.5em;
     font-size: 14px;
-    padding-top: 5%;
+    padding-top: 7%;
+    text-align: center;
 }
 .desc p{
     color: #777777;
